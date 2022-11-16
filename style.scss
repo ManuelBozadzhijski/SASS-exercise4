@@ -1,0 +1,85 @@
+$color-primary: green;
+$color-tertiary: red;
+$color-third: blue;
+
+@mixin properties($width, $height, $color) {
+    width: $width;
+    height: $height;
+    color: $color;
+}
+
+.title{
+   @include properties(700px, 40px, $color-primary);
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-bottom: 0px;
+
+}
+
+.line {
+    @include properties(610px, 2px, $color-third);
+    background-color: $color-third;
+    margin-left: 300px;
+    margin-top: 0px;
+}
+
+.subtitle {
+    @include properties(300px, 40px, $color-primary);
+    border: 1px solid $color-tertiary;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: 470px
+}
+
+    .container {
+      @include properties(1260px, 550px, none);
+      border: 1px solid $color-tertiary;
+    }
+
+    .section {
+        display: flex;
+       margin-left: 25px;
+       margin-top: 0px;
+    }
+
+    .one {
+         border: 1px solid $color-primary;
+         @include properties(300px, 120px, none);
+         text-align: center;
+         padding-top: 30px;
+         margin-top: 20px;
+    }
+
+    .two {
+    @extend .one
+    }
+
+    .three {
+        @extend .one
+    }
+
+    .four {
+        @extend .one
+    }
+
+    .ten {
+        display: flex;
+        @include properties(1185px, 120px, $color-primary);
+        margin-left: 25px;
+        margin-top: 20px;
+        border: 1px solid $color-third;
+        font-size: 23px;
+        text-align: center;
+        padding-top: 35px;
+        padding-left: 20px;
+    }
+
+    #one {
+    color: $color-third;
+    }
+
+    #two {
+    color: $color-tertiary;
+    }

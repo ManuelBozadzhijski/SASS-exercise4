@@ -1,0 +1,76 @@
+.title {
+  width: 700px;
+  height: 40px;
+  color: green;
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-bottom: 0px;
+}
+
+.line {
+  width: 610px;
+  height: 2px;
+  color: blue;
+  background-color: blue;
+  margin-left: 300px;
+  margin-top: 0px;
+}
+
+.subtitle {
+  width: 300px;
+  height: 40px;
+  color: green;
+  border: 1px solid red;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 470px;
+}
+
+.container {
+  width: 1260px;
+  height: 550px;
+  color: none;
+  border: 1px solid red;
+}
+
+.section {
+  display: flex;
+  margin-left: 25px;
+  margin-top: 0px;
+}
+
+.one, .four, .three, .two {
+  border: 1px solid green;
+  width: 300px;
+  height: 120px;
+  color: none;
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 20px;
+}
+
+.ten {
+  display: flex;
+  width: 1185px;
+  height: 120px;
+  color: green;
+  margin-left: 25px;
+  margin-top: 20px;
+  border: 1px solid blue;
+  font-size: 23px;
+  text-align: center;
+  padding-top: 35px;
+  padding-left: 20px;
+}
+
+#one {
+  color: blue;
+}
+
+#two {
+  color: red;
+}
+
+/*# sourceMappingURL=styles.css.map */
